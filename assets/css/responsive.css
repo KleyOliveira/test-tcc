@@ -1,0 +1,40 @@
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+    
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    /* Inicio Header */
+
+    .header-container{
+        display: flex;
+        padding: 15% 3%;
+        justify-content: center;
+    }
+
+    .header-left{
+        flex: 100%;
+        text-align: center;
+    }
+    
+    .header-right{
+        flex: 100%;
+        padding: 5% 0;
+    }
+
+    .header-left:first-child {
+        order: 2;
+    }
+
+    .header-right:last-child {
+        order: 1;
+    }
+
+    /* Fim Header */
+}

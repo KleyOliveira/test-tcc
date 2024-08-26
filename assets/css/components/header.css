@@ -1,0 +1,41 @@
+.header-container{
+    height: 900px;
+    display: flex;
+    padding: 3% 0;
+    flex-flow: row wrap;
+}
+
+.header-left{
+    flex: 45%;
+    align-content: center;
+}
+
+.header-left h1{
+    font-size: 35px;
+}
+
+.header-left p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.header-left .header-btn{
+    margin: 30px 0;
+    padding: 23px 70px;
+    background-color: #00FFCC;
+    color: #263238;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.header-left .header-btn:hover{
+    background-color: #00ac89;
+}
+
+.header-right{
+    flex: 45%;
+}
+
+main{
+    height: 1000px;
+}

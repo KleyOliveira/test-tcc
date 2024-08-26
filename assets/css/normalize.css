@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './variables.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--color);
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    padding: 0 3%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+p{
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(38, 50, 56, 0.412);
+    backdrop-filter: blur(3px);
+}
+
+.nav-links ul li a{
+    padding: 7px 14px;
+    border-top: 3px solid transparent;
+}
+
+.nav-links ul li a:hover {
+    border-top: 3px solid var(--color);
+}
+
+.nav-links ul li {
+    margin: 0 10px;
+}
+
+.nav-links ul button{
+    margin-left: 30px;
+    background-color: var(--color);
+    color: #263238;
+    padding: 12px 36px;
+}
+
+.nav-links ul button:hover{
+    background-color: var(--colorHover);
+}
+
+button{
+    padding: 9px 36px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
