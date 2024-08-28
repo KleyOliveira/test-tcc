@@ -1,29 +1,31 @@
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
 
-    
+    hr {
+        display: none;
+    }
 
-    .navbar{
+    .navbar {
         justify-content: center;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
 
     /* Inicio Header */
 
-    .header-container{
+    .header-container {
         display: flex;
         padding: 15% 3%;
         justify-content: center;
     }
 
-    .header-left{
+    .header-left {
         flex: 100%;
         text-align: center;
     }
-    
-    .header-right{
+
+    .header-right {
         flex: 100%;
         padding: 5% 0;
     }
@@ -36,5 +38,29 @@
         order: 1;
     }
 
+
+    .header-left h1 {
+        font-size: 40px;
+    }
+
     /* Fim Header */
+
+    /* Inicio Main */
+
+    #card-resposive-none{
+        display: none !important;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    .main-container-card{
+        margin: 400px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
+    .main-container-card{
+        margin: 0;
+    }
 }

@@ -8,7 +8,7 @@
 }
 
 body{
-    color: var(--color);
+    color: #C4FFF4;
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
     padding: 0 3%;
@@ -45,11 +45,15 @@ p{
 }
 
 .nav-links ul li a{
+    color: #C4FFF4;
     padding: 7px 14px;
     border-top: 3px solid transparent;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .nav-links ul li a:hover {
+    color: var(--color);
     border-top: 3px solid var(--color);
 }
 
@@ -61,7 +65,10 @@ p{
     margin-left: 30px;
     background-color: var(--color);
     color: #263238;
-    padding: 12px 36px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .nav-links ul button:hover{
@@ -69,9 +76,11 @@ p{
 }
 
 button{
-    padding: 9px 36px;
     border: none;
-    font-size: 18px;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+hr{
+    margin: 50px 0;
+    border: 1px solid #C4FFF4;
 }
